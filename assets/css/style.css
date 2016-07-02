@@ -1,0 +1,275 @@
+/* CSS that stays constant between Index, Contact, and Portfolio pages */
+html, body {
+	height: 100%; /* for sticky footer */
+}
+
+.wrapper {
+	min-height: 100%; /* for sticky footer */
+}
+
+body {
+	 background: url(../images/cork-wallet.png); 
+}
+
+header {
+	min-width: 100%;
+	height: 80px;
+	background-color: #ffffff;
+	border-bottom: 1px solid #cccccc;
+}
+
+h1 {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 25px 0px 25px 0px;
+	width: 270px;
+	text-align: center;
+	float: left;
+	font-size: 30px;
+	margin-right: 210px;
+	margin-left: 100px;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-weight: bold;
+	}
+
+#navbar {
+	background-color: #ffffff;
+	width: 270px;
+	padding: 25px 10px 25px 10px;
+	text-align: center;
+    margin-left: 240px;
+    float: left;
+    height: 30px;
+}
+
+#navbar a {
+	text-decoration: none;
+	color: #777777;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	margin: 5px;
+	padding: 10px 10px 10px 10px;
+	position: relative;
+	top: 10px;
+}
+
+#connect {
+	float: left;
+	padding: 20px 0px 20px 0px;
+	width: 270px;
+	background: #ffffff;
+	margin-left: 40px;
+	text-align: center;
+	border: 1px solid #dddddd;
+	position: relative;
+	color: #4aaaa5;
+	font-size: 20px;
+	background-color: #ffffff;
+	font-weight: bold;
+	margin-top: 30px;
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+#connect hr {
+	width: 200px;
+}
+
+#connect a {
+	padding: 5px;
+}
+
+.footer {
+	position: relative;
+	margin-top: -70px; /* negative value of footer height */
+	height: 60px;
+	clear:both;
+	text-align: center;
+	background: #666666;
+	border-top: 10px solid #4aaaa5;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	color: white;
+	font-size: 12px;
+	color: white;
+	padding-top: 0px; 
+}
+
+.footer p {
+	line-height: 50px;
+}
+
+/* *****************************
+   INDEX.HTML SPECIFIC CSS BELOW */
+
+.bio {
+	font-color: #4aaaa5;
+	padding: 20px;
+	float: left;
+	width: 630px;
+	background: #ffffff;
+	margin-right: 20px;
+	margin-left: 100px;
+	margin-top: 30px;
+	font-size: 14px;
+	border: 1px solid #dddddd;
+	background-color: #ffffff;
+}
+
+.bio h2 {
+	font-size: 25px;
+	color: #4aaaa5;
+	text-align: left;
+	padding: 0px 0px 0px 20px;
+	width: 270px;
+	font-weight: bold;
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.bio p {
+	padding: 20px;
+	font-size: 14px;
+	line-height: 150%;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	color: #777777;
+}
+
+#paragraph2 {
+	padding: 0px 20px 20px 20px;
+}
+
+.bio hr {
+	margin: 20px 20px 0px 20px;
+}
+
+#profpic {
+	float: left;
+	padding: 20px 20px 0px 20px;
+}
+
+/* .bio #connect is for sticky footer! */
+.bio #connect {
+	 overflow:auto;
+	 padding-bottom: 70px;
+}
+
+/* *******************************
+   CONTACT.HTML SPECIFIC CSS BELOW */
+
+.contactbox {
+	font-color: #4aaaa5;
+	padding: 20px;
+	float: left;
+	width: 630px;
+	background: #ffffff;
+	margin-right: 20px;
+	margin-left: 100px;
+	margin-top: 30px;
+	font-size: 14px;
+	border: 1px solid #dddddd;
+	background-color: #ffffff;
+}
+
+.contactbox h2 {
+	font-size: 25px;
+	color: #4aaaa5;
+	text-align: left;
+	padding: 0px 0px 0px 20px;
+	width: 270px;
+	font-weight: bold;
+	font-family: Georgia, Times, "Times New Roman", serif;
+
+}
+.contactbox hr {
+	margin: 20px 20px 0px 20px;
+}
+
+/* .contactbox #connect is for sticky footer! */
+.contactbox #connect { 
+	 overflow:auto;
+	 padding-bottom: 70px;
+}
+form {
+	padding: 10px 20px 20px 20px;
+}
+
+form p {
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	padding: 10px 0px 5px 0px;
+	color: #777777;
+}
+.firstname {
+	width: 588px;
+	height: 20px;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+.lastname {
+	width: 588px;
+	height: 20px;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+.message {
+	width: 588px;
+	height: 150px;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+#submit {
+	margin-left: 20px;
+	background-color: #4aaaa5;
+	color: white;
+	padding: 10px 20px 10px 20px;
+	text-align: center;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+/* *********************************
+   PORTFOLIO.HTML SPECIFIC CSS BELOW */
+
+.portfolio {
+	font-color: #4aaaa5;
+	padding: 20px;
+	float: left;
+	clear: left;
+	width: 630px;
+	background: #ffffff;
+	margin: 30px 20px 30px 100px;
+	font-size: 14px;
+	border: 1px solid #dddddd;
+	background-color: #ffffff;
+}
+
+.portfolio h2 {
+	font-size: 25px;
+	color: #4aaaa5;
+	text-align: left;
+	padding: 0px 0px 0px 20px;
+	width: 270px;
+	font-weight: bold;
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.portfolio hr {
+	margin: 20px 20px 0px 20px;
+}
+
+/* .portfolio #connect is for sticky footer! */
+.portfolio #connect {
+	 overflow:auto;
+	 padding-bottom: 70px;
+}
+
+.imagetext {
+	position: relative;
+	float: left;
+	padding: 20px;
+}
+
+.imagetext p {
+	position: absolute;
+	background-color: #4aaaa5;
+	color: white;
+	width: 270px;
+	text-align: center;
+	font-size: 18px;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	top: 145px;
+	padding: 20px 0px 20px 0px;
+}
